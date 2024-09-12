@@ -21,4 +21,5 @@ jobs:
           generate_plantuml : "true"
           repo_ig: "./igSource"   
           github_page: "true"
-          github_page_token: ${{ secrets.ANS_IG_API_TOKEN  }}
+          github_page_token: ${{ secrets.ANS_IG_API_TOKEN }}
+          termino_server : "https://smt-pprod.esante.gouv.fr/fhir"
